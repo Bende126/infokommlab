@@ -7,13 +7,13 @@
 
 2. Az egyik válaszott szövegszerkesztőben milyen paranccsal/billentyűkombinációval menthetünk el fájlt új néven?
 ```bash
-vim example.c
+vim hello.c
 :wq
 ```
 
 3. Milyen paranccsal hozunk létre tárgykódokat tartalmazó archívumot? (példával)
 ```bash
-gcc -c hello.c -o hello.out
+gcc hello.c -o hello.out
 ls -a
 ```
 > a hello.out lesz a megoldás
