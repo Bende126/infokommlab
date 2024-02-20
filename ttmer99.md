@@ -88,3 +88,39 @@ technológiai folyamatot leíró - file-t (neve többnyire Makefile, vagy *.mak)
 amely három részre tagolható.
 
 ## Labor Feladatok
+1 
+```bash
+vi hello.c
+:wq
+du -sh hello.c
+```
+
+2 
+```bash
+vi valami.txt
+v mint visual
+G a.k.a ctr+a
+:sort valami
+```
+
+3
+```bash
+vi neptunmsg.c
+:wq
+du -sh neptunmsg.c
+
+vi msg.h
+du -sh msg.h
+
+vi printmsg.c
+du -sh printmsg.c
+```
+
+4
+```bash
+gcc msg.c printmsg.c -o hello.out
+objdump -d -M a.out
+```
+
+
+
