@@ -14,6 +14,8 @@ vim hello.c
 3. Milyen paranccsal hozunk létre tárgykódokat tartalmazó archívumot? (példával)
 ```bash
 gcc hello.c -o hello.out
+ar tv examplelib.a
+ar rcs examplelib.a hello.out
 ls -a
 ```
 > a hello.out lesz a megoldás
