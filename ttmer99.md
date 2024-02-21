@@ -37,19 +37,19 @@ int main(){
 
 5. Milyen függvényt, ill. szimbólumot kell tartalmazzon minden futtatható programkód?
 > main függvényt vagy belépési pontot, ahol a program futása kezdődik.
-7. Mire szolgál a tárgykód és hogyan készíthető?
+6. Mire szolgál a tárgykód és hogyan készíthető?
 > A fordítóprogram feladata a forráskód előfeldolgozása (preprocesszor, a
 makrók, include-ok kifejtése), szintaktikai elemzése (a hibák kijelzése
 mellett), és a fordítás során a linker által elfogadott tárgykódú modul
 (object) előállítása.
 > magyarul:
 > ez a futtatható állomány linuxon belül, ami már assembly utasításokat tartalmaz. (digit2)
-8. Milyen eszközzel vizsgálhatjuk meg a tárgykódot? (példával)
+7. Milyen eszközzel vizsgálhatjuk meg a tárgykódot? (példával)
 ```bash
 objdump -hs hello.out
 ```
 > vannak más nevei, mert who knows: tdump, dmpobj
-9. Írjon le legalább két, a tárgykód kivonatában található szekciót! Mit lehet tudni róluk?
+8. Írjon le legalább két, a tárgykód kivonatában található szekciót! Mit lehet tudni róluk?
 > bemagolni. digit2 flashbackek
 
 | Szekció                        | Leírás                                              |
@@ -62,9 +62,9 @@ objdump -hs hello.out
 | .stack                         | Stack                                               |
 
 
-10. Mire szolgál a shared object vagy DLL?
+9. Mire szolgál a shared object vagy DLL?
 > A shared object (SO) és a Dynamic Link Library (DLL) olyan dinamikusan betölthető könyvtárak, amelyek funkciókat vagy kódot tartalmaznak, és ezeket a könyvtárakat más programok vagy folyamatok a futás idején tudják betölteni és használni.
-12. Mi történik a linkelés folyamatakor?
+10. Mi történik a linkelés folyamatakor?
 > bemagolni
 > A linker feladata a tárgykódú modulok
 és könyvtárak összefűzése a
@@ -75,9 +75,9 @@ Intel-hex formátumú file) kóddá oly módon, hogy az egyes modulok
 objektumai a megfelelő programszekciókba kerüljenek, és a
 kereszthivatkozások a megfelelő elhelyezési információk (relocation)
 birtokában feloldódjanak
-13. Mire használható a gdb?
+11. Mire használható a gdb?
 > egy cli (command line interface) debugger
-14. Milyen eszközzel automatizálható a fordítási folyamat?
+12. Milyen eszközzel automatizálható a fordítási folyamat?
 > Make (Program maitenance utility) vagy CMake ha c kódról van szó
 > A Program Maintenance Utility (Make) -
 feladata egy programrendszer elemeinek
