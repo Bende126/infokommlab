@@ -8,7 +8,7 @@
 2. Az egyik válaszott szövegszerkesztőben milyen paranccsal/billentyűkombinációval menthetünk el fájlt új néven?
 ```bash
 vim hello.c
-:wq
+:wq new_hello.c
 ```
 
 3. Milyen paranccsal hozunk létre tárgykódokat tartalmazó archívumot? (példával)
