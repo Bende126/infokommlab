@@ -73,7 +73,7 @@ nyugtázott adatokat újraküldi a forrás.
   > küldött/fogadott szegmens időbélyege, segít megkülönböztetni a nagy ablakméret mellett is, az azonos sorszámmal érkező szegmenseket
 
 15. Mi a pszeudófejléc és mi a szerepe?
-    > 96bit ellenörzőösszeg számításhoz használjuk
+    > 96bit ellenörzőösszeg számításához használjuk
 17. Hogyan működik a kumulatív nyugtázás?
     > nyugta az összes eddig elveszett adat csomagról, 
 18. Hogyan működik a szelektív nyugtázás?
